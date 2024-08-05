@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.alerta {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.alerta.error {
+    background-color: red;
+}
+.alerta.exito {
+    background-color: green;
+}
+body {
+	background-image: url('fondo2.jpeg'); /* Cambia 'ruta_de_tu_imagen.jpg' por la ubicación de tu imagen */
+	background-size: 100% auto; /* Ajusta la imagen al ancho completo sin deformarla */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+}

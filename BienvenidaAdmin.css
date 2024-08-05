@@ -1,0 +1,51 @@
+.navegacion{
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    background-color: #307727; /* Solo para visualizar mejor */
+}
+*{
+    margin: 0;
+    padding: 0;
+
+} 
+.navbar, .navbarsesion{
+    background-color: #286a22;
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbarsesion a{
+    float: right;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbarsesion a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar, .navbarsesion {
+    margin-top: 50px;
+    border: 1px solid #cccccc4b;
+}
+
+#SesionUsuario{
+    position: absolute;
+}
+body {
+    background-image: url('fondo2.jpeg'); /* Cambia 'ruta_de_tu_imagen.jpg' por la ubicación de tu imagen */
+    background-size: 100% auto; /* Ajusta la imagen al ancho completo sin deformarla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
